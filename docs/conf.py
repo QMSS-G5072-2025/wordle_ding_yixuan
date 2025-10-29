@@ -21,12 +21,17 @@ extensions = [
     "sphinx.ext.napoleon",
     "sphinx.ext.viewcode",
 ]
-autoapi_dirs = ["../src"]
+autoapi_dirs = ["../src/wordle_yd2798"]
+autoapi_type = "python"
+autoapi_keep_files = False
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
+
+napoleon_numpy_docstring = True
+napoleon_google_docstring = False
 
 # -- Options for HTML output -------------------------------------------------
 
