@@ -1,10 +1,11 @@
 [tool.poetry]
 name = "wordle_yd2798"
-version = "0.1.0"
+version = "0.1.1"
 description = "Python package for Wordle game functions"
 authors = ["Yixuan Ding"]
 license = "MIT"
 readme = "README.md"
+packages = [{ include = "wordle_yd2798", from = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.12"
